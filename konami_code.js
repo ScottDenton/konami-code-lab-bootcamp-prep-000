@@ -25,7 +25,7 @@ const codes = [
     
 var index = 0;
 document.body.addEventListener('keydown',(event) => {
-  debugger
+  
   var key = event.key;
     
     if (key === codes[index]){
