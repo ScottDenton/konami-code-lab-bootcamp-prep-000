@@ -1,31 +1,32 @@
 const codes = [
-  //"ArrowUp",
-  38,
-  //"ArrowUp",
-  38,
-  //"ArrowDown",
-  40,
-  //"ArrowDown",
-  40,
-  //"ArrowLeft",
-  37,
-  //"ArrowRight",
-  39,
-  //"ArrowLeft",
-  37,
-  //"ArrowRight",
-  39,
-  //"b",
-  66,
-  //"a"
-  65
+  "ArrowUp",
+  
+  "ArrowUp",
+  
+  "ArrowDown",
+  
+  "ArrowDown",
+  
+  "ArrowLeft",
+  
+  "ArrowRight",
+  
+  "ArrowLeft",
+  
+  "ArrowRight",
+  
+  "b",
+  
+  "a"
+  
 ];
 
-  
+  function init(){
+    
 var index = 0;
+document.body.addEventListener('keydown',(event) => {
   
-function konami(event){
-    var key = event.which;
+  var key = event.key;
     
     if (key === codes[index]){
       index ++;
@@ -38,9 +39,13 @@ function konami(event){
       index = 0;
       
     }
-  }
-  
-  document.addEventListener('keydown', konami)
+} )
   
 
+  
+  
+  
+
+  }    
+  
 
