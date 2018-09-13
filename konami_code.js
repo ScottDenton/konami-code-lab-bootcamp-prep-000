@@ -34,6 +34,7 @@ function init() {
       
       if(index === codes.length) {
         alert( 'Yay you did it !!!');
+        index = 0;
       }
     } else {   //reset the index to the start again if wrong key pressed
       index = 0;
