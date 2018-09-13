@@ -22,7 +22,7 @@ const codes = [
 ];
 function init() {
   
-  var listener = document.addEventListener('keydown', konami)
+  document.addEventListener('keydown', konami)
   
   var index = 0;
   
