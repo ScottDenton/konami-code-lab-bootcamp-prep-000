@@ -22,11 +22,10 @@ const codes = [
 ];
 
   function init(){
-    debugger
+    
 var index = 0;
-  
-function konami(event){
-    var key = event.key;
+document.addEventListener('keydown',(event) => {
+  var key = event.key;
     
     if (key === codes[index]){
       index ++;
@@ -39,9 +38,11 @@ function konami(event){
       index = 0;
       
     }
-  }
+} )
   
-  document.addEventListener('keydown', konami)
+
+  
+  
   
 
   }    
