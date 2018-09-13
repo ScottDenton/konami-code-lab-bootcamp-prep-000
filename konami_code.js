@@ -36,12 +36,11 @@ function init() {
         alert( 'Yay you did it !!!');
         index = 0;
       }
-    } else {   //reset the index to the start again if wrong key pressed
+    } else {   
       index = 0;
       
     }
+  }
   
-  
-}
 }
   init();
