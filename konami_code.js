@@ -45,5 +45,5 @@ function konami(event){
 
   }    
   
-  init();
+  
 
