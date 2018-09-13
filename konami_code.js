@@ -23,8 +23,6 @@ const codes = [
 
   
 var index = 0;
-
-
   
 function konami(event){
     var key = event.which;
@@ -33,7 +31,7 @@ function konami(event){
       index ++;
       
       if(index === codes.length) {
-        window.alert( 'Yay you did it !!!');
+        alert( 'Yay you did it !!!');
         index = 0;
       }
     } else {   
@@ -42,7 +40,8 @@ function konami(event){
     }
   }
   
-  document.addEventListener('keydown', konami);
-}
+  document.addEventListener('keydown', konami)
+  
 
+    
 
