@@ -22,9 +22,7 @@ const codes = [
 ];
 function init() {
   
-  document.addEventListener('keydown', konami)
-  
-  var index = 0;
+    var index = 0;
   
   function konami(event){
     var key = event.which;
@@ -41,6 +39,8 @@ function init() {
       
     }
   }
+  
+  document.addEventListener('keydown', konami)
   
 }
   init();
