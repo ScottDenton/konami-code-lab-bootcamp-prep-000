@@ -31,7 +31,7 @@ function konami(event){
       index ++;
       
       if(index === codes.length) {
-        alert( 'Yay you did it !!!');
+        window.alert( 'Yay you did it !!!');
         index = 0;
       }
     } else {   
