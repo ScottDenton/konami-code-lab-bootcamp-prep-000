@@ -20,11 +20,11 @@ const codes = [
   //"a"
   65
 ];
-function init() {
+
   
-    var index = 0;
+var index = 0;
   
-  function konami(event){
+function konami(event){
     var key = event.which;
     
     if (key === codes[index]){
@@ -42,5 +42,3 @@ function init() {
   
   document.addEventListener('keydown', konami)
   
-}
-  init();
