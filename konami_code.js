@@ -8,7 +8,7 @@ function init() {
   var index = 0;
   
   function konami(event){
-    var key = event.key;
+    var key = event.which;
     
     if (key === codes[index]){
       index ++;
