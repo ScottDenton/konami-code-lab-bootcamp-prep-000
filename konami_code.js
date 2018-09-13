@@ -22,11 +22,12 @@ const codes = [
 ];
 
   function init(){
+    debugger
 var index = 0;
   
 function konami(event){
     var key = event.key;
-    debugger
+    
     if (key === codes[index]){
       index ++;
       
