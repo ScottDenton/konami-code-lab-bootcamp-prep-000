@@ -40,7 +40,7 @@ function konami(event){
     }
   }
   
-  document.body.addEventListener('keydown', konami)
+  document.addEventListener('keydown', konami)
   
 
 
