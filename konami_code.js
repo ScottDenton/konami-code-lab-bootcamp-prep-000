@@ -24,7 +24,7 @@ const codes = [
   function init(){
     
 var index = 0;
-document.addEventListener('keydown',(event) => {
+document.body.addEventListener('keydown',(event) => {
   debugger
   var key = event.key;
     
