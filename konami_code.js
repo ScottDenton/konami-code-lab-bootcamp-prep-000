@@ -1,6 +1,25 @@
-const codes = [ 38, 38, 40, 40, 37, 39, 37, 39, 66, 65
+const codes = [
+  //"ArrowUp",
+  38,
+  //"ArrowUp",
+  38,
+  //"ArrowDown",
+  40,
+  //"ArrowDown",
+  40,
+  //"ArrowLeft",
+  37,
+  //"ArrowRight",
+  39,
+  //"ArrowLeft",
+  37,
+  //"ArrowRight",
+  39,
+  //"b",
+  66,
+  //"a"
+  65
 ];
-
 function init() {
   
   var listener = document.addEventListener('keydown', konami)
