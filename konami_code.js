@@ -25,7 +25,7 @@ const codes = [
 var index = 0;
   
 function konami(event){
-    var key = event.which;
+    var key = event.key;
     
     if (key === codes[index]){
       index ++;
